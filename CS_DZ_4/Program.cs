@@ -16,15 +16,15 @@ namespace CS_DZ_4
             string hobby;
             string weight;
 
-            Console.WriteLine("Введите ваше имя: ");
+            Console.WriteLine("Как вас зовут: ");
             name = Console.ReadLine();
-            Console.WriteLine("Введите ваш возраст: ");
+            Console.WriteLine("Сколько вам лет: ");
             age = Console.ReadLine();
-            Console.WriteLine("Введите ваш вес: ");
+            Console.WriteLine("Сколько вы весите: ");
             weight = Console.ReadLine();
-            Console.WriteLine("Введите место работы: ");
+            Console.WriteLine("Где вы работаете: ");
             job = Console.ReadLine();
-            Console.WriteLine("Введите ваше хобби: ");
+            Console.WriteLine("Какое ваше хобби: ");
             hobby = Console.ReadLine();
 
             Console.Write("Вас зовут " + name + ". Ваш возраст " + age + ", ваш вес " + weight + ", ваше место работы "
